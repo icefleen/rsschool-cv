@@ -67,7 +67,7 @@ export default GuestCard;
 Two years of freelance. All my projects are not open source, so I cannot show their source code :(
 
 ### Education
-[Yuri Gagarin State Technical University Of Saratov](http://en.sstu.ru) / [Саратовский государственный университет им. Гагарина Ю. А.](http://www.sstu.ru/)
+[Yuri Gagarin State Technical University Of Saratov](http://en.sstu.ru) / [Саратовский государственный университет им. Гагарина Ю. А.](http://www.sstu.ru/)  
 Pending Bachelor’s degree (third course)
 
 ### English
