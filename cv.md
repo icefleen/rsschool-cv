@@ -19,7 +19,7 @@ some small __SPAs__ (Single Page Applications) and now I want to become a strong
 ##### Other skills
 - __Python__ - _four_ years
 - __Flask__ - _one_ year
-- __C__/__C++__, __C#__, __Java__, __Kotlin__, __PHP__, __Lua__
+- __C__/__C++__, __C#__, __Java__, __Kotlin__, __PHP__, __Lua__, __Transact SQL__, __Mongo DB__
 
 ### Code examples
 ```JavaScript
