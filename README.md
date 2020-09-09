@@ -1,1 +1,1 @@
-https://icefleen.io/rsschool-cv/cv
+https://icefleen.github.io/rsschool-cv/cv
