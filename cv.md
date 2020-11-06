@@ -6,7 +6,7 @@
 - __Telegram__: [@icefleen](https://t.me/icefleen)
 
 ### Summary
-I used to create __chat bots__ in VK and Telegram, __VK Mini Apps__,
+I used to create __chat bots__ for VK and Telegram, __VK Mini Apps__,
 some small __SPAs__ (Single Page Applications) and now I want to become a strong front-end engineer. I can say about myself that I'm a fast learner, responsible and stress-resistant.
 
 ### Skills
