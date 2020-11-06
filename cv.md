@@ -25,7 +25,7 @@ some small __SPAs__ (Single Page Applications) and now I want to become a strong
 
 ### Code examples
 ```JavaScript
-// Light example of my React component using VKUI
+// Little example of my React component using VKUI
 
 import {FormLayout, FormLayoutGroup, Input, Card, Select, Group, Cell, Header} from "@vkontakte/vkui";
 import React from 'react';
