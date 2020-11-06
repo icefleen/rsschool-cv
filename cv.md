@@ -12,13 +12,15 @@ some small __SPAs__ (Single Page Applications) and now I want to become a strong
 ### Skills
 ##### Frontend
 - __HTML/CSS/JavaScript__ - _three_ years
+- __SASS/SCSS__ - _two_ months
 - __Bootstrap 4__ - _two_ years
 - __VueJS, Vuex, Vue Router__ - _one_ year
-- __React__ - base level
+- __React, Redux, React Router__ - _three_ months
 - Other tools such as __JSX__, __JQuery__, __NPM__, __Pug__, __Stylus__ and etc.
 ##### Other skills
 - __Python__ - _four_ years
-- __Flask__ - _one_ year
+- __Flask__ - _six_ months
+- __NodeJS, Express__ - _two_ months
 - __C__/__C++__, __C#__, __Java__, __Kotlin__, __PHP__, __Lua__, __Transact SQL__, __Mongo DB__
 
 ### Code examples
@@ -64,7 +66,8 @@ export default GuestCard;
 ```
 
 ### Experience 
-Two years of freelance. All my projects are not open source, so I cannot show their source code :(
+[My biggest work with React, react-router, redux, react-redux, redux-form and others](https://github.com/icefleen/social-nerwork)
+
 
 ### Education
 [Yuri Gagarin State Technical University Of Saratov](http://en.sstu.ru) / [Саратовский государственный университет им. Гагарина Ю. А.](http://www.sstu.ru/)  
