@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Daniil Yandybaev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="avatar.jpg" alt="avatar" class="avatar">
+            <h1>Daniil Yandybaev</h1>
+        </header>
+        <section class="px-2 mt-2">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email: <a href="mailto:xramirezx@outlook.com">xramirezx@outlook.com</a></li>
+                <li class="mt-1">WhatsApp: <a href="tel:89372566580">+7 (937) 256-65-80</a></li>
+                <li class="mt-1">VK: <a href="https://vk.com/icefleen" target="_blank">@icefleen</a></li>
+                <li class="mt-1">Telegram: <a href="https://t.me/icefleen" target="_blank">@icefleen</a></li>
+            </ul>
+        </section>
+        <section class="px-2 mt-2">
+            <h2>Summary</h2>
+            <p>I used to create <b>chat bots</b> for VK and Telegram, <b>VK Mini Apps</b>, some small <b>SPAs</b> (Single Page Applications) and now I want to become a strong front-end engineer. I can say about myself that I'm a fast learner, responsible and stress-resistant.</p>
+        </section>
+        <section class="px-2 mt-2">
+            <h2>Skills</h2>
+            <section>
+                <h4>Frontend</h4>
+                <ul>
+                    <li><b>HTML/CSS/JavaScript</b> - <i>three</i> years</li>
+                    <li class="mt-1"><b>SASS/SCSS</b> - <i>two</i> months</li>
+                    <li class="mt-1"><b>Bootstrap 4</b> - <i>two</i> years</li>
+                    <li class="mt-1"><b>VueJS</b>, Vuex, Vue Router - <i>one</i> year</li>
+                    <li class="mt-1"><b>React, Redux, React Router</b> - <i>three</i> months</li>
+                    <li class="mt-1">Other tools such as <b>JSX</b>, <b>JQuery</b>, <b>NPM</b>, <b>Pug</b>, <b>Stylus</b> and etc.</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Other skills</h4>
+                <ul>
+                    <li><b>Python</b> - <i>four</i> years</li>
+                    <li class="mt-1"><b>Flask</b> - <i>one</i> year</li>
+                    <li class="mt-1"><b>NodeJS, Express</b> - <i>two</i> months</li>
+                    <li class="mt-1"><b>C/C++</b>, <b>C#</b>, <b>Java</b>, <b>Kotlin</b>, <b>PHP</b>, <b>Lua</b></li>
+                </ul>
+            </section>
+        </section>
+        <section class="px-2 mt-2">
+            <h2>Code examples</h2>
+            <pre><code><xmp>// Little example of my React component using VKUI
+
+import {FormLayout, FormLayoutGroup, Input, Card, Select, Group, Cell, Header} from "@vkontakte/vkui";
+import React from 'react';
+
+const GuestCard = ({guest, index, changeGuestInfo, sum}) => {
+
+    return (
+        <Card size="m" mode="shadow" className="my-1" key={index}>
+            <Group>
+                <Header className="mb-0">Гость {index + 1}</Header>
+                <FormLayout>
+                    <FormLayoutGroup top="Время прибытия">
+                        <Input type="time" value={guest.timeIn} name="guestTimeIn" onChange={changeGuestInfo.bind(this, index)} />
+                    </FormLayoutGroup>
+                    <FormLayoutGroup top="Время убытия">
+                        <Input type="time" value={guest.timeOut} name="guestTimeOut" onChange={changeGuestInfo.bind(this, index)} />
+                    </FormLayoutGroup>
+                    <FormLayoutGroup top="Скидка">
+                        <Select value={guest.discount} name="guestDiscount" onChange={changeGuestInfo.bind(this, index)}>
+                            <option value="0">Нет</option>
+                            <option value="1">Постоянный посетитель 15%</option>
+                            <option value="2">Прогульщик 25%</option>
+                            <option value="3">Молодежная карта СГУ 15%</option>
+                            <option value="4">День рождения 15%</option>
+                        </Select>
+                    </FormLayoutGroup>
+                    <FormLayoutGroup top="Сертификат, минуты">
+                        <Input type="number" min="0" value={guest.cert} name="guestCert" onChange={changeGuestInfo.bind(this, index)} placeholder="0"/>
+                    </FormLayoutGroup>
+                </FormLayout>
+                <Cell>Итого: {sum} руб.</Cell>
+            </Group>
+        </Card>
+    )
+}
+
+export default GuestCard;</xmp></code></pre>
+        </section>
+        <section class="px-2 mt-2">
+            <h2>Experience</h2>
+            <a href="https://github.com/icefleen/social-network">My biggest work with React, react-router, redux, react-redux, redux-form and others</a>
+        </section>
+        <section class="px-2 mt-2">
+            <h2>Education</h2>
+            <p>
+                <a href="http://en.sstu.ru" target="_blank">Yuri Gagarin State Technical University Of Saratov</a> /
+                <a href="http://sstu.ru" target="_blank">Саратовский государственный университет им. Гагарина Ю. А.</a>
+            </p>
+            <p>Pending Bachelor’s degree (third course)</p>
+        </section>
+        <section class="px-2 mt-2">
+            <h2>English</h2>
+            <p>Pre-intermediate</p>
+        </section>
+    </main>
+</body>
+
+</html>
